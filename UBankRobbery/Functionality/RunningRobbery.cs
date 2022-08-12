@@ -48,6 +48,7 @@ namespace UBankRobbery.Functionality
             }
             
             UnturnedChat.Say(Plugin.Instance.Translate("finished", uPlayer.CharacterName), Color.yellow);
+            UnturnedChat.Say(uPlayer, Plugin.Instance.Translate("finished_reward", reward.ToString("N")), Color.yellow);
         }
     }
 }

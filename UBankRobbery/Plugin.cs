@@ -74,6 +74,10 @@ namespace UBankRobbery
             {
                 "robbing",
                 "{0} is robbing bank {1}!"
+            },
+            { 
+                "finished_reward", 
+                "You robbed ${0} from the bank!"
             }
         };
 
